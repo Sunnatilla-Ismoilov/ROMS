@@ -1,0 +1,81 @@
+.header {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  // height: 100vh;
+  // background-color: #142328;
+  // font-size: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid silver;
+}
+
+.site-identity {
+  margin: 2rem 0 0 2rem;
+  position: static;
+}
+
+.site-navigation ul,
+.site-navigation li {
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation li {
+  display: inline-block;
+  margin: 1.4em 1em 1em 1em;
+}
+
+.login-btn {
+  border: 1px solid black;
+  width: 8rem;
+  height: 3rem;
+  margin: 0 2rem 0 0;
+}
+
+.login-btn:hover {
+  border: 1px solid black;
+  width: 8rem;
+  height: 3rem;
+  margin: 0 2rem 0 0;
+  background-color: rgb(240, 240, 240);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.foody-logo {
+  margin-left: 3rem;
+}
+
+.search {
+  width: 20rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.search-icon {
+  height: 3rem;
+  width: 3rem;
+  padding: 0.5rem;
+}
+
+.search-container {
+  display: flex;
+}
+
+.location-icon {
+  margin-left: 1rem;
+  margin-right: -0.5rem;
+}

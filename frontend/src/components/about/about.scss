@@ -1,0 +1,21 @@
+.about_container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about_container h3,
+.about_container h2 {
+  font-size: 2rem;
+  margin: 1rem 1rem 0 2rem;
+}
+
+.about_container p {
+  font-size: 1rem;
+  margin: 1rem 0 0 2rem;
+}
+
+.aboutpage {
+  display: flex;
+  justify-content: center;
+}

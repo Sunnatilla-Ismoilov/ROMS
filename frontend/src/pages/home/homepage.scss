@@ -1,0 +1,138 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.homepage__maincontent {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  margin-top: 3rem;
+  max-width: 1200px;
+  // background-color: #efefef;
+}
+
+.homepage h1 {
+  font-size: 2.5em;
+  // margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.homepage__content {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.homepage__content--text {
+  margin: 2rem 2rem 0 0;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.homepage__content--text p:nth-child(1),
+.homepage__content--text p:nth-child(5) {
+  font-weight: bold;
+}
+
+.homepage__content--image {
+  justify-self: end;
+  align-self: end;
+  width: 100vw;
+  margin: auto;
+}
+
+.homepage__content--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.homepage__content--createbtn {
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: auto;
+  width: 30%;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.homepage__content--learnbtn {
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: auto;
+  width: 60%;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.homepage__content--learnbtn:hover {
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: auto;
+  width: 60%;
+  height: 3rem;
+  margin-top: 2rem;
+  background-color: rgb(231, 231, 231);
+}
+
+.homepage__content--createbtn:hover {
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: auto;
+  width: 30%;
+  height: 3rem;
+  margin-top: 2rem;
+  background-color: rgb(231, 231, 231);
+}
+
+.homepage__help {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  background-color: white;
+  max-width: 1200px;
+}
+
+.homepage__help--qr {
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+
+.homepage__help h3 {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.homepage__help p {
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 1rem;
+  // max-width: 50vw;
+}
+
+.homepage__help--about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.homepage__help--about img {
+  max-width: 25%;
+}
+
+.homepage__help--about li {
+  justify-self: start;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}

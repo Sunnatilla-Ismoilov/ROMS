@@ -1,0 +1,25 @@
+.splashscreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #142328;
+}
+
+@keyframes blink {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(-4px, -0.5px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.right,
+.left {
+  animation: blink 1.5s infinite;
+}
