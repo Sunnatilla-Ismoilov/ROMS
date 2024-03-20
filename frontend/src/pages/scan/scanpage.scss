@@ -1,0 +1,330 @@
+.scanpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif, "Times New Roman", Times, serif;
+  max-width: 1200px;
+}
+
+.foody_logo {
+  margin-top: 10vh;
+  font-size: 4em;
+}
+
+.qrcode {
+  margin-top: 10vh;
+  font-size: 2em;
+  text-align: center;
+}
+
+.camera_icon {
+  margin-top: 10vh;
+}
+
+.divider {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 60vw;
+  font-size: 1em;
+  margin-top: 10vh;
+}
+
+.divider:before,
+.divider:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  border-bottom: 1px solid black;
+  transform: translateY(-50%);
+}
+
+.divider:before {
+  left: 0;
+}
+
+.divider:after {
+  right: 0;
+}
+
+.google_btn {
+  margin-top: 10vh;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+  font-size: 1.5em;
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  font-family: "Roboto", sans-serif, "Times New Roman", Times, serif;
+}
+
+/* Extra small devices (phones, up to 600px) */
+@media (max-width: 600px) {
+  .scanpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif, "Times New Roman", Times, serif;
+    max-width: 600px;
+  }
+
+  .foody_logo {
+    margin-top: 8vh;
+    font-size: 4em;
+  }
+
+  .qrcode {
+    margin-top: 5vh;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .camera_icon {
+    margin-top: 7vh;
+  }
+
+  .divider {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    width: 60vw;
+    font-size: 1em;
+    margin-top: 5vh;
+  }
+
+  .divider:before,
+  .divider:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    border-bottom: 1px solid black;
+    transform: translateY(-50%);
+  }
+
+  .divider:before {
+    left: 0;
+  }
+
+  .divider:after {
+    right: 0;
+  }
+
+  .google_btn {
+    margin-top: 10vh;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+    font-size: 1.2em;
+    width: 60%;
+    height: 40%;
+    text-align: center;
+    font-family: "Roboto", sans-serif, "Times New Roman", Times, serif;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+  .scanpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif, "Times New Roman", Times, serif;
+    max-width: 1200px;
+  }
+
+  .foody_logo {
+    margin-top: 10vh;
+    font-size: 4em;
+  }
+
+  .qrcode {
+    margin-top: 10vh;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .camera_icon {
+    margin-top: 10vh;
+  }
+
+  .divider {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    width: 60vw;
+    font-size: 1em;
+    margin-top: 10vh;
+  }
+
+  .divider:before,
+  .divider:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    border-bottom: 1px solid black;
+    transform: translateY(-50%);
+  }
+
+  .divider:before {
+    left: 0;
+  }
+
+  .divider:after {
+    right: 0;
+  }
+
+  .google_btn {
+    margin-top: 10vh;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+    font-size: 1.5em;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    font-family: "Roboto", sans-serif, "Times New Roman", Times, serif;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+  .scanpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif, "Times New Roman", Times, serif;
+    max-width: 1200px;
+  }
+
+  .foody_logo {
+    margin-top: 10vh;
+    font-size: 4em;
+  }
+
+  .qrcode {
+    margin-top: 10vh;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .camera_icon {
+    margin-top: 10vh;
+  }
+
+  .divider {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    width: 60vw;
+    font-size: 1em;
+    margin-top: 10vh;
+  }
+
+  .divider:before,
+  .divider:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    border-bottom: 1px solid black;
+    transform: translateY(-50%);
+  }
+
+  .divider:before {
+    left: 0;
+  }
+
+  .divider:after {
+    right: 0;
+  }
+
+  .google_btn {
+    margin-top: 10vh;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+    font-size: 1.5em;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    font-family: "Roboto", sans-serif, "Times New Roman", Times, serif;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+  .scanpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif, "Times New Roman", Times, serif;
+    max-width: 1200px;
+  }
+
+  .foody_logo {
+    margin-top: 10vh;
+    font-size: 4em;
+  }
+
+  .qrcode {
+    margin-top: 10vh;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .camera_icon {
+    margin-top: 10vh;
+  }
+
+  .divider {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    width: 60vw;
+    font-size: 1em;
+    margin-top: 10vh;
+  }
+
+  .divider:before,
+  .divider:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    border-bottom: 1px solid black;
+    transform: translateY(-50%);
+  }
+
+  .divider:before {
+    left: 0;
+  }
+
+  .divider:after {
+    right: 0;
+  }
+
+  .google_btn {
+    margin-top: 10vh;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+    font-size: 1.5em;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    font-family: "Roboto", sans-serif, "Times New Roman", Times, serif;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
