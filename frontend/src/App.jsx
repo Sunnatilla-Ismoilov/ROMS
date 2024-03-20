@@ -18,7 +18,7 @@ function LoadingScreen() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-      navigate('/home');
+      navigate('/homepage');
     }, 2000);
   }, [navigate]);
 
