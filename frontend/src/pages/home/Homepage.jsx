@@ -51,7 +51,11 @@ export default function Homepage() {
                     </div>
 
                 </div>
-
+            </section>
+            <section className='homepage__contact'>
+                <h3>Any questions? Contact us!</h3>
+                <p>We are happy to discuss any questions you may have. Be sure to write or call us!</p>
+                <h3 className='homepage__contact--number'>+371 22 22 22 22</h3>
             </section>
         </main>
     )
