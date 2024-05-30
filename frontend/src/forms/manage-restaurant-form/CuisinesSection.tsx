@@ -16,7 +16,7 @@ const CuisinesSection = () => {
       <div>
         <h2 className="text-2xl font-bold">Cuisines</h2>
         <FormDescription>
-          Select the cuisines your restaurant serves
+          Select the cuisines that your restaurant serves
         </FormDescription>
       </div>
       <FormField

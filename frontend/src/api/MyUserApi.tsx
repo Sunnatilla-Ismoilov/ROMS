@@ -70,7 +70,12 @@ export const useCreateMyUser = () => {
     isSuccess,
   } = useMutation(createMyUserRequest);
 
-  return { createUser, isLoading, isError, isSuccess };
+  return {
+    createUser,
+    isLoading,
+    isError,
+    isSuccess,
+  };
 };
 
 type UpdateMyUserRequest = {
@@ -85,6 +90,7 @@ export const useUpdateMyUser = () => {
 
   const updateMyUserRequest = async (formData: UpdateMyUserRequest) => {
     const accessToken = await getAccessTokenSilently();
+
     const response = await fetch(`${API_BASE_URL}/api/my/user`, {
       method: "PUT",
       headers: {
@@ -110,7 +116,7 @@ export const useUpdateMyUser = () => {
   } = useMutation(updateMyUserRequest);
 
   if (isSuccess) {
-    toast.success("User updated successfully");
+    toast.success("User profile updated!");
   }
 
   if (error) {
@@ -118,5 +124,5 @@ export const useUpdateMyUser = () => {
     reset();
   }
 
-  return { updateUser, isLoading, isSuccess, error, reset };
+  return { updateUser, isLoading };
 };

@@ -68,12 +68,13 @@ const SearchPage = () => {
   };
 
   if (isLoading) {
-    <span>Loading...</span>;
+    <span>Loading ...</span>;
   }
 
   if (!results?.data || !city) {
     return <span>No results found</span>;
   }
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[250px_1fr] gap-5">
       <div id="cuisines-list">
@@ -100,6 +101,7 @@ const SearchPage = () => {
             onChange={(value) => setSortOption(value)}
           />
         </div>
+
         {results.data.map((restaurant) => (
           <SearchResultCard restaurant={restaurant} />
         ))}

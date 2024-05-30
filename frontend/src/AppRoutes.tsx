@@ -6,6 +6,8 @@ import UserProfilePage from "./pages/UserProfilePage";
 import ProtectedRoute from "./auth/ProtectedRoute";
 import ManageRestaurantPage from "./pages/ManageRestaurantPage";
 import SearchPage from "./pages/SearchPage";
+import DetailPage from "./pages/DetailPage";
+import OrderStatusPage from "./pages/OrderStatusPage";
 
 const AppRoutes = () => {
   return (
@@ -18,7 +20,6 @@ const AppRoutes = () => {
           </Layout>
         }
       />
-
       <Route path="/auth-callback" element={<AuthCallbackPage />} />
       <Route
         path="/search/:city"
@@ -28,8 +29,23 @@ const AppRoutes = () => {
           </Layout>
         }
       />
-
+      <Route
+        path="/detail/:restaurantId"
+        element={
+          <Layout showHero={false}>
+            <DetailPage />
+          </Layout>
+        }
+      />
       <Route element={<ProtectedRoute />}>
+        <Route
+          path="/order-status"
+          element={
+            <Layout>
+              <OrderStatusPage />
+            </Layout>
+          }
+        />
         <Route
           path="/user-profile"
           element={
@@ -38,7 +54,6 @@ const AppRoutes = () => {
             </Layout>
           }
         />
-
         <Route
           path="/manage-restaurant"
           element={

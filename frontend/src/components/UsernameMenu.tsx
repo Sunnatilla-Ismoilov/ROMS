@@ -1,12 +1,13 @@
-import { useAuth0 } from "@auth0/auth0-react";
+import { CircleUserRound } from "lucide-react";
 import {
   DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@radix-ui/react-dropdown-menu";
-import { CircleUserRound } from "lucide-react";
-import { DropdownMenuContent, DropdownMenuItem } from "./ui/dropdown-menu";
+} from "./ui/dropdown-menu";
+import { useAuth0 } from "@auth0/auth0-react";
 import { Link } from "react-router-dom";
-import { Separator } from "@radix-ui/react-separator";
+import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
 
 const UsernameMenu = () => {
@@ -14,7 +15,7 @@ const UsernameMenu = () => {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger className="flex items-center px-3 front-bold haver:text-orange-500 gap-2">
+      <DropdownMenuTrigger className="flex items-center px-3 font-bold hover:text-orange-500 gap-2">
         <CircleUserRound className="text-orange-500" />
         {user?.email}
       </DropdownMenuTrigger>
